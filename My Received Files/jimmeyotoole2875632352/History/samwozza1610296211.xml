@@ -1,0 +1,3 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type='text/xsl' href='MessageLog.xsl'?>
+<Log FirstSessionID="1" LastSessionID="1"><Message Date="9/19/2008" Time="7:47:55 PM" DateTime="2008-09-19T09:47:55.586Z" SessionID="1"><From><User FriendlyName="samwozza@hotmail.com"/></From><To><User FriendlyName="- James O'"/></To><Text Style="font-family:MS Shell Dlg; color:#000000; ">who's this?</Text></Message><Message Date="9/19/2008" Time="7:48:05 PM" DateTime="2008-09-19T09:48:05.536Z" SessionID="1"><From><User FriendlyName="- James O'"/></From><To><User FriendlyName="samwozza@hotmail.com"/></To><Text Style="font-family:MS Shell Dlg; color:#000000; ">I dont even know</Text></Message></Log>
