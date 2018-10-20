@@ -1,0 +1,19 @@
+
+.time{
+	float: right;
+}
+p{
+	margin:0;
+}
+.from{
+	color:grey;
+
+}
+.text{
+	margin-left:50px;
+}
+
+.chatwindow{
+	max-width: 960px;
+	margin: 0 auto;
+}
