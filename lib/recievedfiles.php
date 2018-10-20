@@ -20,7 +20,7 @@ class ReceivedFiles{
 	//List of users I chatted with
 	public function showHistory(){
 		if(file_exists('./'. $this->dir_name .'/'. $_GET['user'])){
-			echo "Your " . $_GET['user'] . " Let's see what dumb shit you said!<br>";
+			echo "Hotmail ID - " . $_GET['user'] . "<br> Let's see what dumb shit you said!<br>";
 
 			$historyPath='./'.$this->dir_name.'/'.$_GET['user'].'/History';
 			$this->possible_chats=scandir($historyPath);
