@@ -71,9 +71,9 @@ class ReceivedFiles{
 		$to   =	($msg->To->User['FriendlyName']);
 		$text = ($msg->Text);
 
-		// echo "$from  and $this->lastFrom";
+		// echo "$from  and LASTFROM= $this->lastFrom";
 		// if($from != $this->lastFrom)
-		if(!strcmp($from, $this->lastFrom))
+		if(strcmp($from, $this->lastFrom))
 			echo "<p class='from'>$from says: <span class='time'>$date  - $time</span> </p>";
 		echo "<p class='text'>$text</p>";
 
