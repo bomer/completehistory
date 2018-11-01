@@ -92,14 +92,14 @@ class ReceivedFiles{
 	//Prepares the class and see's if u can read my recieved files
 	function __construct (){
 		
-		if(file_exists('./'.$dir_name)){
+		if(file_exists('./'.$this->dir_name)){
 			echo "Your " . $this->dir_name . " Exists. Let's have some fun! <br>";
 
 			$this->possible_users=scandir('./'.$this->dir_name);
 			// prettydump($this->possible_users);
 			$this->showUsers();
 		}else{
-			"Missing " . $this->dir_name;
+			echo "Missing " . $this->dir_name;
 		}
 
 	}

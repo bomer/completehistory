@@ -4,13 +4,12 @@
 // ini_set('html_errors ', true);
 
 require 'lib/recievedfiles.php';
-header();
 
-// prettydump($_SERVER);
+head();
 
 menu();
 
-$currentdir = scandir('.');
+// $currentdir = scandir('.');
 // prettydump($currentdir); // THis dump shows the current workuing dir, to get started
 
 $RF = new ReceivedFiles();
